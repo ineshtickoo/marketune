@@ -1,16 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-body {
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
 }
 a {
   text-decoration: none;
 }
 li {
-  font-weight: 100;
 }
 nav {
   max-width: 70%;
@@ -29,6 +27,7 @@ nav {
   list-style: none;
   color: #288bff;
   font-size: 1.2rem;
+  font-weight: 500;
 }
 .logo img {
   width: 250px;
@@ -75,7 +74,7 @@ p {
   color: white;
   font-size: 1.1rem;
   text-align: center;
-  font-weight: 900;
+  font-weight: 400;
 }
 .buttons a {
   text-decoration: none;
