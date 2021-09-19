@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Rubik";
+}
+a {
+  text-decoration: none;
+}
+li {
+  font-weight: 100;
+}
+nav {
+  max-width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.nav-links {
+  display: flex;
+  justify-content: center;
+}
+.nav-links li {
+  margin-left: 20px;
+  list-style: none;
+  color: #288bff;
+  font-size: 1.2rem;
+}
+.logo img {
+  width: 250px;
+}
+.landing {
+  max-width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  align-items: center;
+}
+p {
+  line-height: 30px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text h1 {
+  color: #114a8d;
+  font-size: 3rem;
+  max-width: 400px;
+}
+.text p {
+  font-size: 1.3rem;
+  color: #288bff;
+  margin-top: 20px;
+  max-width: 400px;
+}
+.images img {
+  width: 300px;
+}
+.buttons {
+  margin-top: 20px;
+}
+.buttons button {
+  width: 120px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: #288bff;
+  color: white;
+  font-size: 1.1rem;
+  text-align: center;
+  font-weight: 900;
+}
+.buttons a {
+  text-decoration: none;
+  color: #288bff;
+  font-size: 1.2rem;
+  margin-left: 20px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+}
+.text2 h1 {
+  color: #114a8d;
+  font-size: 2.4rem;
+  max-width: 500px;
+  margin-top: 100px;
+}
+.text2 p {
+  font-size: 1.3rem;
+  color: #288bff;
+  margin-top: 20px;
+  max-width: 400px;
+}
+.price {
+  max-width: 70%;
+  margin: auto;
+  margin-top: 40px;
+}
+.text2 h2 {
+  color: #114a8d;
+}
+.text2 h3 {
+  color: #288bff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card1 {
+  width: 300px;
+  background-color: #d4e8ff;
+  height: 300px;
+  margin-bottom: 20px;
+}
+.card2 {
+  width: 330px;
+  background-color: #d4e8ff;
+  height: 300px;
+  margin-bottom: 20px;
+}
+.plan {
+  background-color: #288bff;
+  height: 50px;
+  opacity: 0.1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.plan h2 {
+  color: #288bff;
+}
+.plan p {
+  color: #0c68d4;
+}
+.points li {
+  color: #288bff;
+  max-width: 280px;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+.text2 img {
+  width: 150px;
+  margin-top: 40px;
+}
+.download {
+  align-items: center;
+}
